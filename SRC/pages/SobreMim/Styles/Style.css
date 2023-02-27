@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+header {
+  border-top: 1px solid black;
+  width: 80%;
+}
+
+.HEADER-BOUTME {
+  margin: 40px auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.HEADER-WHO_ME {
+  margin: 40px auto;
+  font-size: 50px;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+}
+
+.DESCRIPTION-ABOUTME {
+  margin: 55px auto;
+  font-size: 30px;
+  line-height: 50px;
+  word-wrap: break-word;
+  word-spacing: 1px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 850px) {
+  .HEADER-BOUTME {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .HEADER-WHO_ME {
+    font-size: 45px;
+    margin: 10px
+  }
+
+  .DESCRIPTION-ABOUTME {
+    font-size: 20px;
+    line-height: 35px;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+}

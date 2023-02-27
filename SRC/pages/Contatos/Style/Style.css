@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 800px;
+  width: 1000px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.informationContacts {
+  line-height: 50px;
+}
+
+.informationContacts > h2 {
+  font-size: 2em;
+  letter-spacing: 5px;
+  margin: 20px 0;
+}
+
+.informationContacts > p {
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+.FormContacts > form {
+  display: flex;
+  flex-direction: column;
+}
+
+#formTitle,
+#formEmail,
+#formTextArea {
+  padding: 15px;
+  margin: 15px;
+  width: 400px;
+  border: 2px solid #000;
+}
+
+#formButton {
+  padding: 15px;
+  margin: 15px;
+  width: 150px;
+  border: 2px solid #000;
+  background-color: #fafafa;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#formButton:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  transition: linear 0.4s;
+}
+
+@media screen and (max-width: 1000px) {
+  body,
+  .container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body,
+  .container {
+    width: 100vw;
+  }
+
+  .informationContacts {
+    line-height: normal;
+  }
+
+  .informationContacts > h2 {
+    font-size: 2em;
+  }
+
+  .informationContacts > p {
+    font-size: 1em;
+  }
+
+  #formTitle, 
+  #formEmail,
+  #formTextArea {
+    width: auto;
+  }
+}
