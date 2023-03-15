@@ -81,12 +81,12 @@ body {
   height: 17em;
   width: 15em;
   margin: 0 20px 20px 20px;
-  box-shadow: 0px 0px 30px #00000043;
+  box-shadow: 3px 3px 1px #00000039;
   border-radius: 5px;
 }
 
 .Skills {
-  box-shadow: 0px 0px 30px #00000043;
+  box-shadow: 3px 3px 1px #00000039;
   border-radius: 5px;
   height: 17em;
   width: 15em;
@@ -94,7 +94,7 @@ body {
 }
 
 .Projects {
-  box-shadow: 0px 0px 30px #00000043;
+  box-shadow: 3px 3px 1px #00000039;
   border-radius: 5px;
   height: 17.5em;
   width: 15em;
@@ -102,7 +102,7 @@ body {
 }
 
 .ContatMe {
-  box-shadow: 0px 0px 30px #00000043;
+  box-shadow: 3px 3px 1px #00000039;
   border-radius: 5px;
   height: 17.5em;
   width: 15em;
@@ -159,7 +159,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
   }
-  
+
   #container {
     width: 90%;
     justify-content: flex-start;
@@ -208,7 +208,7 @@ body {
     margin: 20px;
   }
 
-  #MyInfos > h1 { 
+  #MyInfos > h1 {
     font-size: 25px;
     margin: 10px;
     line-height: 25px;
